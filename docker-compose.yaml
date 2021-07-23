@@ -15,6 +15,6 @@ services:
     volumes:
       - /data/docker/docker-vscode/data/config:/config
     ports:
-      - 7564:8443
+      - 7564:7564
     restart: unless-stopped
 
